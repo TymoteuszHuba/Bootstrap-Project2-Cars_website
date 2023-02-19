@@ -1,0 +1,355 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.shadow-theme
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.top-hero
+{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text
+{
+    font-size: 3.6rem;
+}
+
+/* nav */
+
+.navbar .navbar-brand
+{
+    font-size: 2.4rem;
+}
+
+.navbar-toggler
+{
+    font-size: 2.0rem;
+}
+
+/* header */
+
+.header
+{
+    font-size: 2rem;
+}
+
+.carousel-item
+{
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one
+{
+    background-image: url("../img/Zdjęcia do karuzeli/main-carousel-1.jpg");
+}
+.carousel-img-two
+{
+    background-image: url("../img/Zdjęcia do karuzeli/main-carousel-2.jpg");
+}
+.carousel-img-three
+{
+    background-image: url("../img/Zdjęcia do karuzeli/main-carousel-3.jpg");
+}
+
+/* home */
+
+.home .container
+{
+    padding: 5em 0;
+}
+
+.home .fa-solid
+{
+    font-size: 4rem;
+}
+
+.home h3
+{
+    font-size: 2.4rem;
+}
+
+
+/* dla rozwiazania card */
+/* .home .card
+{
+    border: 1px solid transparent;
+}
+
+.home .fa-solid
+{
+    font-size: 3.4rem;
+}
+
+.home .card-title
+{
+    font-size: 2.8rem;
+} */
+
+/* car-passion */
+.car-passion
+{
+    position: relative;
+    height: 350px;
+    /* padding: 0 3em; */
+    background-image: url("../img/sunset-g024312259_640.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.car-passion .car-title
+{
+    font-size: 2.8rem;
+}
+
+
+/* Home brand */
+.home-brand h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* footer */
+.footer
+{
+    font-size: 1.6rem;
+}
+
+/* media queries */
+@media (min-width: 1400px)
+{
+    .carousel-item
+    {
+        height: 600px;
+    }
+    
+    .carousel-img-one
+    {
+        background-image: url("../img/Zdjęcia do karuzeli/main-carousel-1-hq.jpg");
+    }
+    .carousel-img-two
+    {
+        background-image: url("../img/Zdjęcia do karuzeli/main-carousel-2-hq.jpg");
+    }
+    .carousel-img-three
+    {
+        background-image: url("../img/Zdjęcia do karuzeli/main-carousel-3-hq.jpg");
+    }
+}
+
+/* --------------- aboutus.html ---------------------------- */
+
+.aboutus-hero
+{
+    background-image: url("../img/about/hd-wallpaper-gce70d699c_1920.jpg");
+    background-position: bottom;
+}
+
+.aboutus-title
+{
+    font-weight: bold;
+}
+
+.ourpassion-box
+{
+    position: relative;
+}
+
+.ourpassion-title
+{
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-decoration: underline #007BFF;
+}
+
+.ourpassion-box-right
+{
+    text-align: right;
+}
+
+.ourpassion-img
+{
+    height: 400px;
+    object-fit: cover;
+}
+
+
+@media(min-width:992px)
+{
+    .ourpassion-boxes
+    {
+        box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+    }
+
+    .ourpassion-box-left, .ourpassion-box-right
+    {
+        transform: skew(-15deg);
+    }
+
+    .ourpassion-box-right
+    {
+        text-align: left;
+    }
+
+    .ourpassion-img
+    {
+        /* height: auto; */
+        transform: skew(-15deg);
+    }
+}
+
+.aboutus-cards .fa-solid
+{
+    font-size: 3.2rem;
+}
+
+.aboutus-cards .card-title
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* --------------- services.html ---------------------------- */
+
+.services-hero
+{
+    background-image: url("../img/services/car-g0e41e82d5_640.jpg");
+    background-position: 0 80%;
+}
+
+.services-hero-box
+{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.services-hero-box-text
+{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.services-hero-box.hero-one
+{
+    background-image: url("../img/services/engine.jpg");
+   
+}
+
+.services-hero-box.hero-two
+{
+    background-image: url("../img/services/visual.jpg");
+    /* background-position: top; */
+}
+
+.services-hero-box.hero-three
+{
+    background-image: url("../img/services/car-audio.jpg");
+    background-position: 0 40%;
+}
+
+.services-hero-box.hero-four
+{
+    background-image: url("../img/services/allinone.jpg");
+    background-position: 0 60%;
+}
+
+/* --------------- projects.html ---------------------------- */
+
+.projects-hero
+{
+    background-image: url("../img/projects/project-hero.jpg");
+    background-position: 0 50%;
+}
+
+/* .ourprojects-title
+{
+    font-size: 2.8rem;
+} */
+
+.ourprojects .card-img-top
+{
+    height: 240px;
+    object-fit: cover;
+}
+
+.ourprojects .btn
+{
+    font-size: 1.4rem;
+}
+
+/* --------------- contact.html ---------------------------- */
+
+.contact-hero
+{
+    background-image: url("../img/contact/shelby-g2c2e50ae9_1920.jpg");
+    background-position: center;
+}
+
+.contact .card-title
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-address, .contact-phone, .contact-email
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-company-name
+{
+    font-size: 2.4rem;
+}
+
+.contact .form-label, .btn
+{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.form-control, .form-select, .form-label
+{
+    font-size: 1.4rem;
+}
+
+#map
+{
+    width: 100%;
+    height: 600px;
+}
